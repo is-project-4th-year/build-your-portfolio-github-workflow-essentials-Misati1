@@ -1,52 +1,75 @@
-# Personal Portfolio Documentation
-
 ## 1. Student Details
 
-- **Full Name**:
-- **GitHub Username**:
-- **Email**:
+- **Full Name**: Sharly Moraa Misati
+- **Admission Number**: [151961]
+- **GitHub Username**: Misati1
+- **Email**: sharly.misati@strathmore.edu
 
 ## 2. Deployed Portfolio Link
 
-- **GitHub Pages URL**:  
-  _(Provide the live link to your deployed portfolio website)_
+- **GitHub Pages URL**: https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Misati1/
+
+### Website Screenshots
+
+![Home Page Screenshot](assets/images/Homepage.png)  
+*This is the homepage of my portfolio, showing the hero section and navigation.*
+
+![Projects Page Screenshot](assets/images/Team.png)  
+*This shows the Projects section with the team profiles grid and filter in action.*
 
 ## 3. Learnings from the Git Crash Program
 
-List at least **four key concepts or skills** you learned during the Git crash course. For each one, write a brief explanation of how it helped you manage your portfolio project more effectively.
+1. **Concept: GitHub Project Boards**  
+   - **Expectation 👀**: Thought it was only for big teams.  
+   - **Reality 😅**: A simple Kanban to track To Do → Done.  
+   - **Impact 💡**: Kept me organized as I built each page of my portfolio.
 
-Example format:
+2. **Concept: Feature Branching**  
+   - **Expectation 👀**: Felt like extra work to branch for small changes.  
+   - **Reality 😅**: Made it risk-free to experiment without breaking `main`.  
+   - **Impact 💡**: I could style my navbar separately without fear of merge conflicts.
 
-- **Branching**: Helped me separate features and prevent conflicts when working on different sections of the site.
-- _(Continue with other concepts…)_
+3. **Concept: Structured Commit Messages**  
+   - **Expectation 👀**: Just type “fixed CSS” and move on.  
+   - **Reality 😅**: The `<type>(<scope>): <description>` format clarifies history.  
+   - **Impact 💡**: Reviewing my change log was a breeze when troubleshooting.
 
-## 4. Screenshots of Key GitHub Features
+4. **Concept: Milestones & Issues**  
+   - **Expectation 👀**: Felt like project management overkill.  
+   - **Reality 😅**: Breaking “Landing page” into tasks (header, hero, footer) kept me focused.  
+   - **Impact 💡**: No feature was forgotten, and I saw real progress on my board.
+  
+   ### A. Milestones and Issues
 
-Include screenshots that demonstrate how you used GitHub to manage your project. For each screenshot, write a short caption explaining what it shows.
+![Milestones and Issues overview](assets/images/Milestone2.png)
+*This shows the Milestones page with each Milestone’s progress bar and the list of related issues.*
 
-> Upload the screenshots to your GitHub repository and reference them here using Markdown image syntax:
-> (you could just simply copy and paste the image into the Assignment.md)
-
-```markdown
-![Caption](path/to/your/image.png)
-```
-
-### A. Milestones and Issues
-
-- Screenshot showing your milestone(s) and the issues linked to it.
+---
 
 ### B. Project Board
 
-- Screenshot of your GitHub Project Board with issues organized into columns (e.g., To Do, In Progress, Done).
+![Project Board Kanban view](assets/images/Lists.png)
+*My Project Board with columns “To Do”, “In Progress”, and “Done”, showing how issues move through stages.*
+
+---
 
 ### C. Branching
 
-- Screenshot showing your branch list with meaningful naming.
+![Branches list](assets/images/Branches.png)
+*Screenshot of all feature branches named using the `feature/<issue>-<desc>` convention.*
+
+---
 
 ### D. Pull Requests
 
-- Screenshot of a pull request that’s either open or merged and linked to a related issue.
+![Pull Request example](assets/images/Milestones.png)
+*An example of a merged Pull Request that references and closes its issue via `Closes #5`.*
+
+---
+
 
 ### E. Merge Conflict Resolution
 
-- Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
+![Merge Conflict UI](assets/images/Pull_request.png)
+*This is the GitHub UI for resolving a merge conflict, where I chose which lines to keep before merging.*
+
